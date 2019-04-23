@@ -4,12 +4,15 @@ class Cat
     @name = name
   end
 
-  def name()
+  def name
     @name
   end
 
   def meow
     puts 'meow!'
+  end
+
+  def attr_accessor
   end
 end
 
